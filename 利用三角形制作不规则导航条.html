@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style type="text/css">
+	.container{
+		border: 1px solid gray;
+		border-right: none;
+		background-color: gray;
+		color: white;
+		display: inline-block;
+		padding: 5px 0 5px 5px;
+		font-size: 14px;
+	}
+	.triangle{
+		display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 30px solid gray;
+    border-bottom: 15px solid transparent;
+	}
+	.re-triangle{
+		display: inline-block;
+		width: 0;
+		height: 0;
+		border-top: 15px solid gray;
+		border-left: 30px solid transparent;
+		border-bottom: 15px solid gray;
+	}
+	.left{
+		float: left;
+		display: flex;
+    align-items: center;
+	}
+	.margin-left{
+		margin-left: -27px;
+	}
+</style>
+<body>
+	<div class="left">
+		<div class="container">
+			一、申请
+		</div>
+		<div class="triangle"></div>
+	</div>
+	<div class="left margin-left">
+		<div class="re-triangle"></div>
+		<div class="container">
+			二、审批
+		</div>
+		<div class="triangle"></div>
+	</div>
+	<div class="left margin-left">
+		<div class="re-triangle"></div>
+		<div class="container">
+			三、完成
+		</div>
+	</div>
+</body>
+
+</html>

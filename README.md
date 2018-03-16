@@ -1,2 +1,3 @@
-# CSS
-simple descriptions on learning experiences in css
+# CSS-tips
+
+##  Tips on solving css problem and hacks on solving IE-supportment.
